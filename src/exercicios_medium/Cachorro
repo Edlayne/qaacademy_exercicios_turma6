@@ -1,0 +1,60 @@
+//package exercicios_medium;
+
+//public class Cachorro {
+//
+//    String nome;
+//    String cor;
+//    String[] nomes = new String[2];
+//
+//    public void pular() {
+//        nome = "Toti";
+//        System.out.println("Pular");
+//
+//    }
+//
+//    public void latir() {
+//        nome = "Tod";
+//        System.out.println("AUAU");
+//
+//
+//    }
+//
+//    public String[] pular() {
+//
+//        nomes[0] = "Toti";
+//        nomes[1] = "Tod";
+//        return nomes;
+//
+   }
+//
+//    public int pular() {
+//        return 90;
+//
+//    }
+//
+//    public String pular(int altura, String nome, String valor) {
+//            if (altura >= 80) {
+//            String salto = "Seu cachorro pula alto";
+//            return salto;
+//        } else {
+//            return "Seu cachorro pula baixo";
+//
+//        }
+//
+//        public String media (int a, int b) {
+//            int a = 1;
+//            int b = 2;
+//            if ((a + b) / 2 > 5) {
+//                return "APROVADO";
+//            }
+//            return "REPROVADO";
+//        }
+//    }
+//
+//}
+//}
+//
+// void - Método - você entra no metodo e executa oq tem dentro e nao retorna nada.
+// Em teste não usa muito o main, chamamos as classes.
+// Classe tudo que quero trazer do mundo real para o virtual.
+// new consegui utilizar tudo que tem na classe
