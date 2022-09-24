@@ -6,6 +6,16 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec6 {
+    public double calcularNotas (double nota1, double nota2, double nota3){
+        System.out.println();
+
+    }
+}
+
+
+
+
+
     public static void main(String[] args) {
         //  Declarar variaveis do tipo numérico: nota1,nota2,resultado;
         double nota1, nota2;

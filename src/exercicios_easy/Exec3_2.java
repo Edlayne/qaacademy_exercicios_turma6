@@ -5,14 +5,8 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec3_2 {
-    public static void main(String[] args) {
-        String nome, sobrenome, auxiliar;
-        nome = JOptionPane.showInputDialog("Digite seu nome");
-        sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome");
-        auxiliar = nome;
-        nome = sobrenome;
-        sobrenome = auxiliar;
-        System.out.println("O nome é:" + nome + " " + sobrenome);
+    public String inverterNomes(String nome, String sobrenome){
+    return "O nome é:" + sobrenome +nome;
     }
 }
 
