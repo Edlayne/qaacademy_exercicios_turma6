@@ -6,22 +6,11 @@ public class MetodoSemMain {
         String sobrenome = "sobrenome";
 
     }
-    public void printarCores() {
-        System.out.println("Azul");
-
-
-    }
-    public int somarDoisNumeros(int num1, int num2) {
-        return num1 + num2;
-
-
-    }
-    public int multiplicacao(int num1, int num2){
-        return num1*num2;
-
-    }
-
-
+    public void printarCores() {System.out.println("Azul");}
+    //1 método com return
+    public int somarDoisNumeros(int num1, int num2) {return num1 + num2;}
+    //1 método com parametro
+    public int multiplicacao(int num1, int num2){return num1*num2;}
 }
 
 //3 metodos

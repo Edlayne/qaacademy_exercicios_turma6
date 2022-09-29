@@ -7,25 +7,31 @@ import javax.swing.*;
 
 public class Exec11 {
     public static void main(String[] args) {
-        int numeroDigitado;
-        int i = 1;
-        String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número");
-        numeroDigitado = Integer.parseInt(numeroDigitadoStg);
-
-        while (i <= 100) {
-            numeroDigitado = numeroDigitado + 2;
-
-            System.out.println("O Total somado é:" + numeroDigitado);
+        int soma = 0, i = 1;
+        while (i<=100){
+            soma = soma + 2;
+            System.out.println(soma);
             i++;
-
-
         }
-
-
     }
-
-
 }
+
+
+//public class Exec11 {
+//    public static void main(String[] args) {
+//        int numeroDigitado;
+//        int i = 1;
+//        String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número");
+//        numeroDigitado = Integer.parseInt(numeroDigitadoStg);
+//
+//        while (i <= 100) {
+//            numeroDigitado = numeroDigitado + 2;
+//
+//            System.out.println("O Total somado é:" + numeroDigitado);
+//            i++;
+//        }
+//    }
+//}
 
 //Inicio Algoritimo
 // Declarar variáveis do tipo inteiro: numeroDigitado, i = 1;

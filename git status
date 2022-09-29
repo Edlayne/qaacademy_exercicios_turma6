@@ -1,0 +1,104 @@
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/Main/Execucao.class b/out/production/qaacademy_exercicios_turma6/Main/Execucao.class[m
+[1mdeleted file mode 100644[m
+[1mindex 294a1f6..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/Main/Execucao.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemploInstanciaDeClasse/Execucao.class b/out/production/qaacademy_exercicios_turma6/exemploInstanciaDeClasse/Execucao.class[m
+[1mdeleted file mode 100644[m
+[1mindex 4052608..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemploInstanciaDeClasse/Execucao.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemploInstanciaDeClasse/ExemploInstanciaDeClasse.class b/out/production/qaacademy_exercicios_turma6/exemploInstanciaDeClasse/ExemploInstanciaDeClasse.class[m
+[1mdeleted file mode 100644[m
+[1mindex e463e09..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemploInstanciaDeClasse/ExemploInstanciaDeClasse.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemplos/MetodoSemMain.class b/out/production/qaacademy_exercicios_turma6/exemplos/MetodoSemMain.class[m
+[1mindex 7c2fcf8..3a3da53 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemplos/MetodoSemMain.class and b/out/production/qaacademy_exercicios_turma6/exemplos/MetodoSemMain.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemplos/Metodos.class b/out/production/qaacademy_exercicios_turma6/exemplos/Metodos.class[m
+[1mdeleted file mode 100644[m
+[1mindex 3052f73..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemplos/Metodos.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemplos/MetodosComRetornoMain.class b/out/production/qaacademy_exercicios_turma6/exemplos/MetodosComRetornoMain.class[m
+[1mindex 7702a88..2ea530d 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemplos/MetodosComRetornoMain.class and b/out/production/qaacademy_exercicios_turma6/exemplos/MetodosComRetornoMain.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemplos/MetodosSemRetornoMain.class b/out/production/qaacademy_exercicios_turma6/exemplos/MetodosSemRetornoMain.class[m
+[1mindex d4cdd7b..df9f98e 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemplos/MetodosSemRetornoMain.class and b/out/production/qaacademy_exercicios_turma6/exemplos/MetodosSemRetornoMain.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exemplos/Teste.class b/out/production/qaacademy_exercicios_turma6/exemplos/Teste.class[m
+[1mdeleted file mode 100644[m
+[1mindex 06f4632..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exemplos/Teste.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exerciciosIntanciaDeClasse/Joca.class b/out/production/qaacademy_exercicios_turma6/exerciciosIntanciaDeClasse/Joca.class[m
+[1mdeleted file mode 100644[m
+[1mindex 3aca2b5..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exerciciosIntanciaDeClasse/Joca.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec11.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec11.class[m
+[1mindex a2a17e7..31de145 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec11.class and b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec11.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec2.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec2.class[m
+[1mindex dfbf488..da12ddf 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec2.class and b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec2.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3.class[m
+[1mdeleted file mode 100644[m
+[1mindex 40d263e..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3_2.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3_2.class[m
+[1mindex ee3363b..f0a4d62 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3_2.class and b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec3_2.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec4.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec4.class[m
+[1mindex 90f77ec..afa8394 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec4.class and b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec4.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec5_2.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec5_2.class[m
+[1mdeleted file mode 100644[m
+[1mindex 521fe27..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec5_2.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec5_3.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec5_3.class[m
+[1mdeleted file mode 100644[m
+[1mindex d5a5426..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec5_3.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec6.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec6.class[m
+[1mdeleted file mode 100644[m
+[1mindex 5a4d090..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec6.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec7_2.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec7_2.class[m
+[1mdeleted file mode 100644[m
+[1mindex e9b35d0..0000000[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec7_2.class and /dev/null differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec8.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec8.class[m
+[1mindex 4d8d1c7..2324d7f 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec8.class and b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec8.class differ
+[1mdiff --git a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec9.class b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec9.class[m
+[1mindex 9ef33ff..c5c455f 100644[m
+Binary files a/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec9.class and b/out/production/qaacademy_exercicios_turma6/exercicios_easy/Exec9.class differ
+[1mdiff --git a/src/Main/Execucao.java b/src/Main/Execucao.java[m
+[1mindex c072e34..7bbb279 100644[m
+[1m--- a/src/Main/Execucao.java[m
+[1m+++ b/src/Main/Execucao.java[m
+[36m@@ -1,40 +1,57 @@[m
+ package Main;[m
+ [m
+[31m-import exercicios_easy.Exec5;[m
+[32m+[m[32mimport exercicios_easy.Exec6;[m
+ [m
+ public class Execucao {[m
+ [m
+ [m
+[31m-    public static void main(String[] args) {[m
+[32m+[m[32m      public static void main(String[] args) {[m
+[32m+[m[32m           Exec6 exec5 = new Exec6();[m
+[32m+[m[32m            System.out.println(exec5.calcularMediaNota(3, 10, 9));[m
+[32m+[m[32m            }[m
+[32m+[m[32m      }[m
+ [m
+[31m-        Exec5 exec5 = new Exec5();[m
+[31m-        System.out.println(exec5.calcularMedia(3,10,9));[m
+[31m-[m
+[31m-        }[m
+[31m-    }[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-//    public static void main(String[] args) {[m
+[31m-//[m
+[31m-//        Exec4 exec4 = new Exec4();[m
+[31m-//     

@@ -20,17 +20,12 @@ public class Exec10 {
 
 // Portugol
 //  Início Algoritimo
-//
 //	Declarar variáveis do tipo numérico: valorInvestimento, taxajuros = 0,05, valorJuuros, valorTotal;
 //	valorInvestimento = Ler ("1000");
 //	taxajuros = 0,05 * 10;
 //	valorJuros = valorInvestimento * taxajuros;
 //	 valorTotal = valorJuros+valorInvestimento
-//
 //	 Exibir: "Você investiu:" + valorInvestimento;
 //	 Exibir: "Rendeu:" + valorJuros + "de Juros";
 //	 Exibir: "O Valor total são:" + valorTotal;
-//
-//
-//
 //  Fim Algoritimo

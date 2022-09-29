@@ -36,8 +36,6 @@ public class Exec7 {
 }
 
 
-
-
 //    Declarar variaveis do tipo numérico: salario,inss;
 //        Inicio do algoritimo
 //        salario = Ler(2100);

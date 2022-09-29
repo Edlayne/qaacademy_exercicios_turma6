@@ -7,21 +7,31 @@ import javax.swing.*;
 
 public class Exec9 {
     public static void main(String[] args) {
-
-
-        int numeroDigitado, i=1, resultado;
-        String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número para calcular a tabuada");
-        numeroDigitado = Integer.parseInt(numeroDigitadoStg);
-
-        while (i <= 10) {
-            resultado = numeroDigitado *1;
-            System.out.println(numeroDigitado + " X " + i + "=" + resultado);
-            i++; //soma do i+1 pra entrar em loop infinito
-
+        int num1=0, i =1;
+        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
+        while (i <= 10){
+            System.out.println(num1+ " x " + i + " = " + num1 *i );
+            i++;
         }
+    }
+}
 
-    }//fim do main
-}//fim da classe
+
+
+//Exemplo1
+//public class Exec9 {
+//    public static void main(String[] args) {
+//        int numeroDigitado, i=1, resultado;
+//        String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número para calcular a tabuada");
+//        numeroDigitado = Integer.parseInt(numeroDigitadoStg);
+//        while (i <= 10) {
+//            resultado = numeroDigitado *1;
+//            System.out.println(numeroDigitado + " X " + i + "=" + resultado);
+//            i++; //soma do i+1 pra entrar em loop infinito
+//
+//        }
+//    }//fim do main
+//}//fim da classe
 
 
 //    Início Algoritimo

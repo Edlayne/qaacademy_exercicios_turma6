@@ -4,15 +4,18 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec4 {
-    public int calcularDobro (int num){
-        int result = num*2;
-        return result;
+public class Exec4 { //inicio da classe
+    public static void main(String[] args) {
+        //    Declarar variável do tipo numérico: numero;
+        int num1;
+        // numero = Ler ();
+        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
+        //        Exibir: numero*2;
+        System.out.println("O dobro é " + num1 * 2);
 
     }
-}
 
-
+}//fim da classe
 
 
 //    Inicio Algoritmo

@@ -7,7 +7,6 @@ public class MetodosSemRetornoMain {
         oQueVaiFazer();
         oQueVoceNaoQuer();
         oQueTodosFizeramVoceNaoFez();
-
     }
 
     public static void oQueEuQuiser() {
@@ -16,7 +15,6 @@ public class MetodosSemRetornoMain {
 
     public static void oQueNaoDizer() {
         System.out.println("O Que não dizer");
-
     }
 
     public static void oQueVaiFazer() {
@@ -25,17 +23,12 @@ public class MetodosSemRetornoMain {
 
     public static void oQueVoceNaoQuer() {
         System.out.println("O Que você não quer");
-
     }
 
     public static void oQueTodosFizeramVoceNaoFez() {
         System.out.println("O Que todos fizeram você não fez");
-
     }
-
-
 }
-
 
 //static por causa do main
 //metodo responsavel de fazer pra mim
