@@ -6,14 +6,48 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec5 { // Inicio da classe
-    public double calcularMedia (double num1, double num2, double num3) {
-        System.out.println(" A soma é " + (num1+num2+num3));
-        System.out.println(" A subtração é " + (num1-num2-num3));
-        System.out.println(" A multiplicação é " + (num1*num2*num3));
-        System.out.println("A media é " + (num1+num2+num3/3));
-        return num1+num2+num3;
+//Exemplo da aula do Flavio
+public class Exec5 {//Início da Classe
+
+    public static int soma(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+        int soma;
+        soma = primeiroNumero + segundoNumero + terceiroNumero;
+        return soma;
     }
+
+    public static int subtracao(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+        int subtracao;
+        subtracao = primeiroNumero - segundoNumero - terceiroNumero;
+        return subtracao;
+    }
+
+    public static int multiplicacao(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+        int multiplicacao;
+        multiplicacao = primeiroNumero * segundoNumero * terceiroNumero;
+        return multiplicacao;
+    }
+
+    public int media(int soma) {
+        int media;
+        media = soma / 3;
+        return media;
+    }
+
+
+}//Fim da Classe
+
+
+
+
+//Exemplo - Aula que eu fiz
+//public class Exec5 { // Inicio da classe
+//    public double calcularMedia (double num1, double num2, double num3) {
+//        System.out.println(" A soma é " + (num1+num2+num3));
+//        System.out.println(" A subtração é " + (num1-num2-num3));
+//        System.out.println(" A multiplicação é " + (num1*num2*num3));
+//        System.out.println("A media é " + (num1+num2+num3/3));
+//        return num1+num2+num3;
+//    }
 
 ////Algoritimo
 //    public class Exec5 { // Inicio da classe
@@ -32,9 +66,7 @@ public class Exec5 { // Inicio da classe
 //        System.out.println("A multiplicacao é: "+ mult);
 //        System.out.println("A media é: %.2f"+ media);
 //    }
-
-
-}//fim classe
+//fim classe
 
 //    Inicio Algoritmo
 //

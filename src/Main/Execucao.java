@@ -1,20 +1,26 @@
 package Main;
 
-import exercicios_easy.Exec4;
+import exercicios_easy.Exec5;
 
 import javax.swing.*;
 
 public class Execucao {
-
-
     public static void main(String[] args) {
-        String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um numero");
-        int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
-        Exec4 exec4 = new Exec4();
-        System.out.println(" O dobro de " + numeroDigitado + " = "+exec4.calcularDobro(numeroDigitado));
-     }
-   }
+        String primeiroNumeroDigitado1 = JOptionPane.showInputDialog("Digite o primeiro número");
+        String segundoNumeroDigitado2 = JOptionPane.showInputDialog("Digite o segundo número");
+        String terceiroNumeroDigitado3 = JOptionPane.showInputDialog("Digite o terceiro número");
 
+        int primeiroNumeroDigitado = Integer.parseInt(primeiroNumeroDigitado1);
+        int segundoNumeroDigitado = Integer.parseInt(segundoNumeroDigitado2);
+        int terceiroNumeroDigitado = Integer.parseInt(terceiroNumeroDigitado3);
+
+        System.out.println("A Soma dos números digitados será: " + Exec5.soma(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+        System.out.println("A Subtração dos números digitados será: " + Exec5.subtracao(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+        System.out.println("A Multiplicação dos números digitados será: " + Exec5.multiplicacao(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+        int soma = Exec5.soma(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado);
+        System.out.println("A Média dos números digitados será: " + Exec5.soma(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+    }
+}
 //----------------------------------------------------------------------------------------------------------------------
 //Exec2
     //    public static void main(String[] args){
@@ -23,7 +29,7 @@ public class Execucao {
     //    }
     //}
 //---------------------------------------------------
-// Exemplo 2
+// Exec2 exemplo 2
 //    public static void main(String[] args){
 //  Exec2 exec2 = new Exec2();
 // String palavra = exec2.exibirPalavra ("Palavra");
@@ -38,7 +44,7 @@ public class Execucao {
 //}
 //}
 //----------------------------------------------------------------------------------------------------------------------
-//Exemplo 2
+//Exec3 exemplo 2
 //       public static void main(String[] args) {
 //         String primeiroValor = JOptionPane.showInputDialog("Digite o primeiro valor");
 //         String segundoValor = JOptionPane.showInputDialog("Digite o segundo valor");
@@ -66,11 +72,11 @@ public class Execucao {
 //    String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um numero");
 //    int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
 //    Exec4 exec4 = new Exec4();
-//    System.out.println(exec4.calcularDobro(numeroDigitado));
+//    System.out.println(" O dobro de " + numeroDigitado + " = "+exec4.calcularDobro(numeroDigitado));
 //}
 //}
 //----------------------------------------------------------------------------------------------------------------------
-//Exec4 exemplo3
+//Exec4 exemplo 3
 //public static void main(String[] args) {
 //    String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um numero");
 //    int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
@@ -85,5 +91,23 @@ public class Execucao {
 //    Exec5 exec5 = new Exec5();
 //    System.out.println(exec5.calcularMedia(3, 10, 9));
 //  }
+//}
+//-----------------------------------------------------------------------------------------------------------------------
+// Exec5 exemplo 2
+//public static void main(String[] args) {
+//    String primeiroNumeroDigitado1 = JOptionPane.showInputDialog("Digite o primeiro número");
+//    String segundoNumeroDigitado2 = JOptionPane.showInputDialog("Digite o segundo número");
+//    String terceiroNumeroDigitado3 = JOptionPane.showInputDialog("Digite o terceiro número");
+//
+//    int primeiroNumeroDigitado = Integer.parseInt(primeiroNumeroDigitado1);
+//    int segundoNumeroDigitado = Integer.parseInt(segundoNumeroDigitado2);
+//    int terceiroNumeroDigitado = Integer.parseInt(terceiroNumeroDigitado3);
+//
+//    System.out.println("A Soma dos numeros digitados será: " + Exec5.soma(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+//    System.out.println("A Subtração os numeros digitados será: " + Exec5.subtracao(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+//    System.out.println("A Multiplicação dos numeros digitados será: " + Exec5.multiplicacao(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+//    int soma = Exec5.soma(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado);
+//    System.out.println("A Mdia dos numeros digitados será: " + Exec5.soma(primeiroNumeroDigitado, segundoNumeroDigitado, terceiroNumeroDigitado));
+//}
 //}
 //-----------------------------------------------------------------------------------------------------------------------
