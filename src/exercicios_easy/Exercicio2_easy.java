@@ -1,9 +1,7 @@
 package exercicios_easy;
 //2-) Faça um algoritimo para ler e exibir uma palavra
 
-import javax.swing.*;
-
-public class Exec2 {
+public class Exercicio2_easy {
 
     public String exibirPalavra(String palavra){
         return "A palavra é:" + palavra;

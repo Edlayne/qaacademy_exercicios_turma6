@@ -2,7 +2,7 @@ package exercicios_easy;
 
 //3-) Faça um algoritmo para ler dois valores, armazenar em variáveis, e exibir os valores das variáveis, trocados.
 
-public class Exec3_2 {
+public class Exercicio3_1_easy {
     public static void main(String[] args) {
         float num1 =5, num2 =5, num3=7,soma;
         float media =0f;
@@ -11,7 +11,6 @@ public class Exec3_2 {
         System.out.println(media);
     }
 }
-
 
 //    Inicio Algoritmo
 //    Declarar variáveis do tipo texto : nome, sobrenome, auxiliar;

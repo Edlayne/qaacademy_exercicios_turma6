@@ -6,7 +6,7 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec6_2 {
+public class Exercicio6_1_easy {
     public static void main(String[] args) {
         int nota1, nota2, media;
 

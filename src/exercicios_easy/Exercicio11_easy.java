@@ -3,9 +3,7 @@ package exercicios_easy;
 //        digitado, até completar 100 iterações. Por ex.: Digitou 10. 10+2, 12+2, 14+2, Até
 //        completar 100 iterações.
 
-import javax.swing.*;
-
-public class Exec11 {
+public class Exercicio11_easy {
     public static void main(String[] args) {
         int soma = 0, i = 1;
         while (i<=100){

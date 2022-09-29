@@ -4,7 +4,7 @@ package exercicios_easy;
 //juros e o total com juros. Considerando que a remuneração será no regime de
 //juros simples.(em cima do valor que ele investiu.
 
-public class Exec10 {
+public class Exercicio10_easy {
     public static void main(String[] args) {
         double valorJuros, taxaJuros = 0.05, valorInvestimento, valorTotal;
         valorInvestimento = 1000.00;

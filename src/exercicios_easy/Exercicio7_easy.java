@@ -4,7 +4,7 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec7 {
+public class Exercicio7_easy {
     public static void main(String[] args) {
 
         double salario, inss = 0.0; //declaração das variaveis

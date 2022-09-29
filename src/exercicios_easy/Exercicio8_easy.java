@@ -5,7 +5,7 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec8 {
+public class Exercicio8_easy {
     public static void main(String[] args) {
         double salario, ir=0;
         salario = Double.parseDouble(JOptionPane.showInputDialog("Digit seu salario"));

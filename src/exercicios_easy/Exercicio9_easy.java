@@ -5,7 +5,7 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec9 {
+public class Exercicio9_easy {
     public static void main(String[] args) {
         int num1=0, i =1;
         num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
