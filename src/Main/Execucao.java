@@ -1,15 +1,19 @@
 package Main;
 
-import exercicios_easy.Exec3_1;
+import exercicios_easy.Exec4;
+
+import javax.swing.*;
 
 public class Execucao {
 
 
-     public static void main(String[] args) {
-          Exec3_1 exec3 = new Exec3_1();
-          System.out.println(exec3.inverterNomes("Edlayne","Morais"));
-        }
-      }
+    public static void main(String[] args) {
+        String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um numero");
+        int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
+        Exec4 exec4 = new Exec4();
+        System.out.println(" O dobro de " + numeroDigitado + " = "+exec4.calcularDobro(numeroDigitado));
+     }
+   }
 
 //----------------------------------------------------------------------------------------------------------------------
 //Exec2
@@ -57,6 +61,25 @@ public class Execucao {
 //        }
 //    }
 //----------------------------------------------------------------------------------------------------------------------
+//Exec4 exemplo 2
+//public static void main(String[] args) {
+//    String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um numero");
+//    int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
+//    Exec4 exec4 = new Exec4();
+//    System.out.println(exec4.calcularDobro(numeroDigitado));
+//}
+//}
+//----------------------------------------------------------------------------------------------------------------------
+//Exec4 exemplo3
+//public static void main(String[] args) {
+//    String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um numero");
+//    int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
+//    Exec4 exec4 = new Exec4();
+//    System.out.println(" O dobro de " + numeroDigitado + " = "+exec4.calcularDobro(numeroDigitado));
+//}
+//}
+//----------------------------------------------------------------------------------------------------------------------
+
 //Exec5
 //public static void main(String[] args) {
 //    Exec5 exec5 = new Exec5();
