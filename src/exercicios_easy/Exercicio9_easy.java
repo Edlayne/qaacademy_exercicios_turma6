@@ -3,19 +3,16 @@ package exercicios_easy;
 //        calcular e exibir a tabuada deste número digitado. Ex.: 10 x 1 = 10, .., 10 x 10 =
 //        100.
 
-import javax.swing.*;
-
 public class Exercicio9_easy {
-    public static void main(String[] args) {
-        int num1=0, i =1;
-        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
-        while (i <= 10){
-            System.out.println(num1+ " x " + i + " = " + num1 *i );
+    public int calculaTabuada(int num1) {
+        int i = 1;
+        while (i <= 10) {
+            System.out.println(num1 + " x " + i + " = " + num1 * i);
             i++;
         }
+        return i;
     }
 }
-
 
 
 //Exemplo1

@@ -1,6 +1,5 @@
 package Main;
 
-import exercicios_easy.Exercicio7_easy;
 import exercicios_easy.Exercicio8_easy;
 
 public class Execucao8_easy {
