@@ -1,28 +1,31 @@
 package exercicios_easy;
+//Exercício 6 - Faça um algoritmo para ler duas notas, calcular a média. E
+//SE - a média > 5 Exibir aprovado, SE a média < 5 exibir reprovado, se media = 5
+//exibir exame.
 
-import javax.swing.*;
 
-////Exercício 6 - Faça um algoritmo para ler duas notas, calcular a média. E
-////SE - a média > 5 Exibir aprovado, SE a média < 5 exibir reprovado, se media = 5
-////exibir exame.
+public class Exercicio6_easy {
+    public String verificaAprovacao(double nota1, double nota2, double nota3) {
+        double resultado;
 
-//public class Exec6 {
-//    public double calcularMediaNota(double nota1, double nota2, double nota3) {
-//        if (nota1 >=100) {
-//            System.out.println(" Digite a primeira nota ");
-//        }
-//
-//        System.out.println(" Digite a segunda nota ");
-//        System.out.println(" Digite a terceira nota ");
-//        System.out.println("A media é " + (nota1 + nota2 + nota3 / 3));
-//        return nota1 + nota2 + nota3;
-//+
-//      calcularMediaNota = nota1;
-//      if (nota1 >= 100) {
-//      System.out.println("Aprovado");
-//          }
-//    }
-//}
+        resultado = (nota1 + nota2) / 2;
+
+        if (resultado > 5) {//inicio
+            return "Você está Aprovado! Parabéns!!!";
+        }//fim se
+
+        if (resultado < 5) {//inicio
+            return "Você está Reprovado!!!";
+        }//fim se
+
+        if (resultado == 5) {//inicio
+            return "Você está de Exame!!!";
+        }//fim se
+        return "Não foi possível calcular sua nota";
+    }
+}
+
+
 
 //    public static void main(String[] args) {
 //        int nota1, nota2, media;
