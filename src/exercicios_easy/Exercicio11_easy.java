@@ -4,16 +4,28 @@ package exercicios_easy;
 //        completar 100 iterações.
 
 public class Exercicio11_easy {
-    public static void main(String[] args) {
-        int soma = 0, i = 1;
-        while (i<=100){
-            soma = soma + 2;
-            System.out.println(soma);
+    public int somaDois(int numeroDigitado) {
+
+        int i = 1;
+
+        while (i <= 100) {
+            numeroDigitado = numeroDigitado + 2;
             i++;
         }
+        return numeroDigitado;
     }
 }
 
+//public class Exercicio11_easy {
+//    public static void main(String[] args) {
+//        int soma = 0, i = 1;
+//        while (i<=100){
+//            soma = soma + 2;
+//            System.out.println(soma);
+//            i++;
+//        }
+//    }
+//}
 
 //public class Exec11 {
 //    public static void main(String[] args) {
