@@ -4,26 +4,51 @@ package exercicios_easy;
 //exibir exame.
 
 
+
+
 public class Exercicio6_easy {
-    public String verificaAprovacao(double nota1, double nota2, double nota3) {
-        double resultado;
+    public String calcularMedia(int nota1, int nota2) {
+        int media;
+        String retorno = "";
+        media = (nota1 + nota2) / 2;
 
-        resultado = (nota1 + nota2) / 2;
-
-        if (resultado > 5) {//inicio
-            return "Você está Aprovado! Parabéns!!!";
+        if (media > 5) {//inicio
+            retorno = "Aprovado";
         }//fim se
 
-        if (resultado < 5) {//inicio
-            return "Você está Reprovado!!!";
+        if (media < 5) {//inicio
+            retorno = "Reprovado!!!";
         }//fim se
 
-        if (resultado == 5) {//inicio
-            return "Você está de Exame!!!";
+        if (media == 5) {//inicio
+            retorno = "Exame!!!";
         }//fim se
-        return "Não foi possível calcular sua nota";
+        return retorno;
     }
 }
+
+
+
+//public class Exercicio6_easy {
+//    public String verificaAprovacao(double nota1, double nota2, double nota3) {
+//        double resultado;
+//
+//        resultado = (nota1 + nota2 + nota3) / 2;
+//
+//        if (resultado > 7) {//inicio
+//            return "Você está Aprovado! Parabéns!!!";
+//        }//fim se
+//
+//        if (resultado < 7) {//inicio
+//            return "Você está Reprovado!!!";
+//        }//fim se
+//
+//        if (resultado == 7) {//inicio
+//            return "Você está de Exame!!!";
+//        }//fim se
+//        return "Não foi possível calcular sua nota";
+//    }
+//}
 
 
 

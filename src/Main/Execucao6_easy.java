@@ -2,12 +2,21 @@ package Main;
 
 import exercicios_easy.Exercicio6_easy;
 
+
 public class Execucao6_easy {
     public static void main(String[] args) {
         Exercicio6_easy exercicio6_easy = new Exercicio6_easy();
-        System.out.println(exercicio6_easy.verificaAprovacao(5, 5, 5));
+        System.out.println(exercicio6_easy.calcularMedia(10, 5));
     }
 }
+
+
+//public class Execucao6_easy {
+//    public static void main(String[] args) {
+//        Exercicio6_easy exercicio6_easy = new Exercicio6_easy();
+//        System.out.println(exercicio6_easy.verificaAprovacao(7, 7, 7));
+//    }
+//}
 
 
 
