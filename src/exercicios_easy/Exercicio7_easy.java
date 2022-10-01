@@ -3,58 +3,55 @@ package exercicios_easy;
 //valor do INSS a ser pago. Respeitando a tabela abaixo:
 
 public class Exercicio7_easy {
-    public double calculaInss(double salario1) {
-     double inss =0.0;
-     
-        if (salario1 <= 1045.00) {
-            inss = salario1 * 0.075;
+    public String calculaInss(double salario) {
+        double inss;
+        if (salario <= 1045.00) {
+            inss = salario * 0.075;
+            return "O valor do inss será:" + inss;
         }
-        if (salario1 >= 1045.01 && salario1 <= 2089.60) {
-            inss = salario1 * 0.09;
+        if (salario >= 1045.01 && salario <= 2089.60) {
+            inss = salario * 0.09;
+            return "O valor do inss será:" + inss;
         }
-        if (salario1 >= 2089.61 && salario1 <= 3134.40) {
-            inss = salario1 * 0.12;
+
+        if (salario >= 2089.61 && salario <= 3134.40) {
+            inss = salario * 0.12;
+            return "O valor do inss será:" + inss;
         }
-        if (salario1 >= 3134.41 && salario1 <= 6101.06) {
-            inss = salario1 * 0.14;
+        if (salario >= 3134.41 && salario <= 6101.06) {
+            inss = salario * 0.14;
+            return "O valor do inss será:" + inss;
         }
-        if (salario1 >= 6101.06) {
+        if (salario >= 6101.06) {
             inss = 6101.06 * 0.14;
+            return "O valor do inss será:" + inss;
         }
-        return inss;
+        return null;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//public class Exercicio7_easy {
+//    public double calculaInss(double salario1) {
+//        double inss =0.0;
+//
+//        if (salario1 <= 1045.00) {
+//            inss = salario1 * 0.075;
+//        }
+//        if (salario1 >= 1045.01 && salario1 <= 2089.60) {
+//            inss = salario1 * 0.09;
+//        }
+//        if (salario1 >= 2089.61 && salario1 <= 3134.40) {
+//            inss = salario1 * 0.12;
+//        }
+//        if (salario1 >= 3134.41 && salario1 <= 6101.06) {
+//            inss = salario1 * 0.14;
+//        }
+//        if (salario1 >= 6101.06) {
+//            inss = 6101.06 * 0.14;
+//        }
+//        return inss;
+//    }
+//}
 
 
 //public class Exercicio7_easy {

@@ -3,34 +3,64 @@ package exercicios_easy;
 //        valor do salário bruto, valor do salário líquido e o valor do imposto de renda.
 //        Respeitando a tabela abaixo:
 
+
 public class Exercicio8_easy {
-
-    public double calculaImpostoDeRenda(double salario) {
-
-        double salarioLiquido = 0.0, impostoRenda = 0;
+    public String calculaImpostoDeRenda(double salario) {//salario é parametro
+        double ir = 0;
 
         if (salario <= 1903.98) {
-            impostoRenda = 0;
-         }
+            return "Isento imposto de renda";
+
+        }else{
+
         if (salario >= 1903.99 && salario <= 2826.65) {
-            impostoRenda = (salario * 0.075) - 142.80;
+            ir = (salario * 0.075) - 142.80;
         }
         if (salario >= 2826.66 && salario <= 3751.05) {
-            impostoRenda = (salario * 0.15) - 354.80;
+            ir = (salario * 0.15) - 354.80;
         }
         if (salario >= 3751.06 && salario <= 4664.68) {
-            impostoRenda = (salario * 0.225) - 636.13;
+            ir = (salario * 0.225) - 636.13;
         }
         if (salario > 4664.68) {
-            impostoRenda = (salario * 0.275) - 869.36;
+            ir = (salario * 0.275) - 869.36;
         }
-        return impostoRenda;
-    }
-    public double calcularSalarioLiquido(double salario, double impostoDeRenda) {
-        return salario - impostoDeRenda;
-
+        return "Salario Bruto:" + salario + "Salario Liquido:"+ salario + ir + "Imposto a pagar:" + ir;
+            }
     }
 }
+
+
+
+
+//public class Exercicio8_easy {
+//
+//    public double calculaImpostoDeRenda(double salario) {
+//
+//        double salarioLiquido = 0.0, impostoRenda = 0;
+//
+//        if (salario <= 1903.98) {
+//            impostoRenda = 0;
+//         }
+//        if (salario >= 1903.99 && salario <= 2826.65) {
+//            impostoRenda = (salario * 0.075) - 142.80;
+//        }
+//        if (salario >= 2826.66 && salario <= 3751.05) {
+//            impostoRenda = (salario * 0.15) - 354.80;
+//        }
+//        if (salario >= 3751.06 && salario <= 4664.68) {
+//            impostoRenda = (salario * 0.225) - 636.13;
+//        }
+//        if (salario > 4664.68) {
+//            impostoRenda = (salario * 0.275) - 869.36;
+//        }
+//        return impostoRenda;
+//    }
+//    public double calcularSalarioLiquido(double salario, double impostoDeRenda) {
+//        return salario - impostoDeRenda;
+//
+//    }
+//}
 
 
 //public class Exercicio8_easy {
